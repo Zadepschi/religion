@@ -1,0 +1,96 @@
+.header, .image-container, .head, .btn {
+    display: flex;
+    justify-content: center;
+}
+.header, .head {
+    font-family: 'Neucha', cursive;
+}
+#one, #two, #three {
+    padding: 20px;
+    font-family: 'Neucha', cursive;
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: beige;
+    background-color: rgb(51, 50, 50);
+    border-radius: 50%;
+}
+
+body {
+    background-image: url(https://kartinkin.net/uploads/posts/2020-07/thumbs/1593795302_60-p-belii-fon-dlya-prezentatsii-75.png);
+   background-size: cover;
+height: 100vh;
+}
+
+
+.btnEn {
+    display: flex;
+    justify-content: end;
+}
+.en {
+    border-radius: 80%;
+    font-size: 25px;
+    font-family: 'Neucha', cursive;
+    font-weight: bolder;
+    margin-right: 100px;
+    width: 80px;
+    color: beige;
+    background-color: rgb(51, 50, 50);
+}
+
+
+
+@media all and (max-width: 414px) {
+    #myImage {
+        width: 400px;
+    }
+    #one, #two, #three {
+        font-size: 20px;
+        margin: 10px;
+    }
+    .en {
+        margin-right: 50px;
+    }
+}
+
+@media all and (max-width: 393px) {
+    #myImage {
+        width: 380px;
+    }
+    #one, #two, #three {
+        font-size: 15px;
+    }
+}
+@media all and (max-width: 375px) {
+    #myImage {
+        width: 360px;
+    }
+    #one, #two, #three {
+        font-size: 12px;
+    }
+}
+
+
+
+
+@media all and (max-width: 360px) {
+    #myImage {
+        width: 300px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    #myImage {
+        width: 280px;
+    }
+    #one, #two, #three {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 280px) {
+    #one, #two, #three {
+        font-size: 10px;
+        margin: 5px;
+    }
+}
