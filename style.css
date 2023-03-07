@@ -17,7 +17,7 @@
 }
 
 body {
-    background-image: url(https://kartinkin.net/uploads/posts/2020-07/thumbs/1593795302_60-p-belii-fon-dlya-prezentatsii-75.png);
+    background-image: url("background.png");
    background-size: cover;
 height: 100vh;
 }
